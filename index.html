@@ -3,198 +3,162 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WCOEL SANGLI</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
     <link rel="stylesheet" href="app.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>WCEOAPPS</title>
 </head>
 
 <body>
-    <button class="bg-clr-change">Click to change color</button>
-    <h3 class="heading-3">Important links of WCE</h3>
-    <div class="panel pricing-table">
-        <div class="pricing-plan">
-            <img src="icons/icon4.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">MOODLE</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">ASSIGNMENTS</li>
-                <li class="pricing-features-item">SUBMISSIONS</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('http://115.247.20.236/moodle/','_blank')">Moodle</a>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            College-Links
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="http://115.247.20.236/moodle/" target="_blank">MOODLE</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://student.wcoeapps.in/landing"
+                                    target="_blank">WCEOAPPS</a></li>
+                            <li><a class="dropdown-item" href="https://wcoe.unionline.in/login" target="_blank">WCEO
+                                    ONLINE</a></li>
+                            <li><a class="dropdown-item" href="http://www.walchandsangli.ac.in/"
+                                    target="_blank">OFFICIAL WEBSITE</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://drive.google.com/drive/u/0/folders/14Q_A4FKLLzjPI2QuHPctKFjaSIx-wzsU"
+                                    target="_blank">WEB Dev - Angela YU</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://drive.google.com/drive/folders/1SLuWEq0uRJrWJ0Y5jl1SFY35RndetYrH"
+                                    tareget="_blank">DSA - Abdul Bari</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://drive.google.com/drive/folders/1gfqQxSP_YgOn6FV-HsBiyqywqtSDugkC"
+                                    target="_blank">JAVA</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://drive.google.com/drive/folders/1SkCOcAS0Kqvuz-MJkkjbFr1GSue6Ms6m"
+                                    target="_blank">Placement material</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            CP Platforms
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.codechef.com/" target="_blank">Codechef</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://codeforces.com/" target="_blank">Codeforces</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://leetcode.com/" target="_blank">Leetcode</a></li>
+                            <li><a class="dropdown-item" href="https://www.hackerrank.com/"
+                                    target="_blank">Hackerrank</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Learning Websites
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.geeksforgeeks.org/" target="_blank">Geeks for
+                                    Geeks</a></li>
+                            <li><a class="dropdown-item" href="https://www.tutorialspoint.com/index.htm"
+                                    target="_blank">Tutorials Point</a></li>
+                            <li><a class="dropdown-item" href="https://www.javatpoint.com/"
+                                    target="_blank">javaTpoint</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Clubs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://wceacses.org/" target="_blank">acses</a></li>
+                            <li><a class="dropdown-item" href="https://wce.acm.org/" target="_blank">ACM students
+                                    chapter</a></li>
+                            <li><a class="dropdown-item" href="https://wceartcircle.github.io/" target="_blank">ART
+                                    CIRCLE</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://in.linkedin.com/in/wce-cesa-3b0611229?trk=public_profile_browsemap"
+                                    target="_blank">CESA</a></li>
+                            <li><a class="dropdown-item" href="https://in.linkedin.com/company/wce-codechef-chapter"
+                                    target="_blank">Codechef students chapter</a></li>
+                            <li><a class="dropdown-item" href="https://in.linkedin.com/in/wceeesa"
+                                    target="_blank">EESA</a></li>
+                            <li><a class="dropdown-item" href="https://elesa.co.in/" target="_blank">ELESA</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://gdsc.community.dev/walchand-college-of-engineering-sangli/"
+                                    target="_blank">GDSC</a></li>
+                            <li><a class="dropdown-item" href="https://mesamescwce.wordpress.com/"
+                                    target="_blank">MESA-MESC</a></li>
+                            <li><a class="dropdown-item" href="https://wcepace.org.in/" target="_blank">PACE</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://in.linkedin.com/company/rotaract-club-of-wce-sangli"
+                                    target="_blank">ROTARACT</a></li>
+                            <li><a class="dropdown-item" href="http://wcesait.org/" target="_blank">SAIT</a></li>
+                            <li><a class="dropdown-item" href="https://www.wcewlug.org/" target="_blank">WLUG</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-        <div class="pricing-plan">
-            <img src="icons/icon5.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">WCOE ONLINE</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">MID SEM</li>
-                <li class="pricing-features-item">END SEM</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://wcoe.unionline.in/login','_blank')">Exam</a>
+    </nav>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x600/?monuments,heritage sites" class="d-block w-100"
+                    style="height:500px; width:fit-content;" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x600/?college" class="d-block w-100"
+                    style="height:500px; width:fit-content;" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x600/?motivation,quotes" class="d-block w-100"
+                    style="height:500px; width:fit-content;" alt="...">
+            </div>
         </div>
-        <div class="pricing-plan">
-            <img src="icons/icon7.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">WCEOAPPS</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">STUDENT</li>
-                <li class="pricing-features-item">DEPARTMENT</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://student.wcoeapps.in/','_blank')">WCEOAPPS</a>
-        </div>
-        <div class="pricing-plan">
-            <img src="icons\newlogo.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">WEBSITE</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">Latest Updates</li>
-                <li class="pricing-features-item">More...</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('http://www.walchandsangli.ac.in/','_blank')">WEBSITE</a>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
-    <h3 class="heading-3">Important links of some courses</h3>
-    <div class="panel pricing-table">
-        <div class="pricing-plan">
-            <svg class="new-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-filetype-html" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662H6.515Zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999h.706Zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z" />
-            </svg>
-            <h2 class="pricing-header">WEB DEVELOPMENT</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">ANGELA YU</li>
-                <li class="pricing-features-item">COURSE</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://drive.google.com/drive/mobile/folders/14Q_A4FKLLzjPI2QuHPctKFjaSIx-wzsU?usp=drive_open','_blank')">LINK</a>
-        </div>
-        <div class="pricing-plan">
-            <svg class="new-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-journal-code" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M8.646 5.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 8l1.647-1.646a.5.5 0 0 0 0-.708z" />
-                <path
-                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
-                <path
-                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
-            </svg>
-            <h2 class="pricing-header">DSA C/C++</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">ABDUL BARI</li>
-                <li class="pricing-features-item">PLACEMENTS</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://drive.google.com/drive/folders/1SLuWEq0uRJrWJ0Y5jl1SFY35RndetYrH?usp=sharing','_blank')">LINK</a>
-        </div>
-        <div class="pricing-plan">
-            <svg class="new-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-filetype-java" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.521 15.175a1.321 1.321 0 0 1-.082-.466h.765a.577.577 0 0 0 .073.27.499.499 0 0 0 .454.246c.19 0 .33-.055.422-.164.092-.11.138-.265.138-.466V11.85h.79v2.725c0 .44-.118.774-.357 1.005-.236.23-.564.345-.984.345a1.59 1.59 0 0 1-.568-.094 1.144 1.144 0 0 1-.408-.266 1.139 1.139 0 0 1-.243-.39Zm3.972-.354-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028H5.493Zm1.178-.59-.49-1.616h-.035l-.49 1.617h1.015Zm2.342 1.618h.952l1.327-3.999h-.878l-.888 3.138h-.038L8.59 11.85h-.917l1.34 3.999Zm3.087-1.028-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028H12.1Zm1.178-.59-.49-1.616h-.035l-.49 1.617h1.015Z" />
-            </svg>
-            <h2 class="pricing-header">DSA JAVA</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">PLACEMENTS</li>
-                <li class="pricing-features-item">JAVA</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://drive.google.com/drive/folders/1gfqQxSP_YgOn6FV-HsBiyqywqtSDugkC?usp=sharing','_blank')">LINK</a>
-        </div>
-        <div class="pricing-plan">
-            <svg class="new-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-briefcase" viewBox="0 0 16 16">
-                <path
-                    d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z" />
-            </svg>
-            <h2 class="pricing-header">PLACEMENT MATERIAL</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">PLACEMENT</li>
-                <li class="pricing-features-item">COMPANIES</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://bit.ly/PlacementMaterialDrive','_blank')">LINK</a>
-        </div>
-    </div>
-
-    <h3 class="heading-3">Some more important links</h3>
-    <div class="panel pricing-table" id="scroll">
-        <div class="pricing-plan">
-            <svg class="new-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-code-slash" viewBox="0 0 16 16">
-                <path
-                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
-            </svg>
-            <h2 class="pricing-header">Codechef</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">CHALLENGES</li>
-                <li class="pricing-features-item">CONTESTS</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://www.codechef.com/','_blank')">CODECHEF</a>
-        </div>
-        <div class="pricing-plan">
-            <svg class="new-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-code-square" viewBox="0 0 16 16">
-                <path
-                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                <path
-                    d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
-            </svg>
-            <h2 class="pricing-header">CODEFORCES</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">HIGH LEVEL PROBLEMS</li>
-                <li class="pricing-features-item">CONTESTS</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://codeforces.com/','_blank')">CODEFORCES</a>
-        </div>
-        <div class="pricing-plan">
-            <svg class="new-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-braces-asterisk" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M1.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C2.25 2 1.49 2.759 1.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6ZM14.886 7.9v.164c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456v-1.3c-1.114 0-1.49-.362-1.49-1.456V4.352C14.51 2.759 13.75 2 12.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6ZM7.5 11.5V9.207l-1.621 1.621-.707-.707L6.792 8.5H4.5v-1h2.293L5.172 5.879l.707-.707L7.5 6.792V4.5h1v2.293l1.621-1.621.707.707L9.208 7.5H11.5v1H9.207l1.621 1.621-.707.707L8.5 9.208V11.5h-1Z" />
-            </svg>
-            <h2 class="pricing-header">LEETCODE</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">DAILY PROBLEMS</li>
-                <li class="pricing-features-item">INTERVIEW</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://leetcode.com/','_blank')">LEETCODE</a>
-        </div>
-        <div class="pricing-plan">
-            <svg class="new-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-code-square" viewBox="0 0 16 16">
-                <path
-                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                <path
-                    d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
-            </svg>
-            <h2 class="pricing-header">HACKERRANK</h2>
-            <ul class="pricing-features">
-                <li class="pricing-features-item">CONTESTS</li>
-                <li class="pricing-features-item">TOPIC WISE</li>
-            </ul>
-            <span class="pricing-price"></span>
-            <a href="#" class="pricing-button is-featured"
-                onclick="window.open('https://www.hackerrank.com/','_blank')">HACKERRANK</a>
-        </div>
-    </div>
-    <script src="app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
