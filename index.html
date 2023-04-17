@@ -1,165 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <title>WCEOAPPS</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand text-light" href="index.html">HOME</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="index.html">HOME</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle nav-link text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                College-Links
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="http://10.10.16.164/"
+                    target="_blank"
+                    >MOODLE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://student.wcoeapps.in/landing"
+                    target="_blank"
+                    >WCEOAPPS</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://wcoe.unionline.in/login"
+                    target="_blank"
+                    >WCEO ONLINE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="http://www.walchandsangli.ac.in/"
+                    target="_blank"
+                    >OFFICIAL WEBSITE</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle nav-link text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://drive.google.com/drive/u/0/folders/14Q_A4FKLLzjPI2QuHPctKFjaSIx-wzsU"
+                    target="_blank"
+                    >WEB Dev - Angela YU</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://drive.google.com/drive/folders/1SLuWEq0uRJrWJ0Y5jl1SFY35RndetYrH"
+                    tareget="_blank"
+                    >DSA - Abdul Bari</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://drive.google.com/drive/folders/1gfqQxSP_YgOn6FV-HsBiyqywqtSDugkC"
+                    target="_blank"
+                    >JAVA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://drive.google.com/drive/folders/1SkCOcAS0Kqvuz-MJkkjbFr1GSue6Ms6m"
+                    target="_blank"
+                    >Placement material</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle nav-link text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                CP Platforms
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.codechef.com/"
+                    target="_blank"
+                    >Codechef</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://codeforces.com/"
+                    target="_blank"
+                    >Codeforces</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://leetcode.com/"
+                    target="_blank"
+                    >Leetcode</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.hackerrank.com/"
+                    target="_blank"
+                    >Hackerrank</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle nav-link text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Learning Websites
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.geeksforgeeks.org/"
+                    target="_blank"
+                    >Geeks for Geeks</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.tutorialspoint.com/index.htm"
+                    target="_blank"
+                    >Tutorials Point</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.javatpoint.com/"
+                    target="_blank"
+                    >javaTpoint</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle nav-link text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Clubs
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://wceacses.org/"
+                    target="_blank"
+                    >acses</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://wce.acm.org/"
+                    target="_blank"
+                    >ACM students chapter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://wceartcircle.github.io/"
+                    target="_blank"
+                    >ART CIRCLE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://in.linkedin.com/in/wce-cesa-3b0611229?trk=public_profile_browsemap"
+                    target="_blank"
+                    >CESA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://in.linkedin.com/company/wce-codechef-chapter"
+                    target="_blank"
+                    >Codechef students chapter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://in.linkedin.com/in/wceeesa"
+                    target="_blank"
+                    >EESA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://elesa.co.in/"
+                    target="_blank"
+                    >ELESA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://gdscwce.vercel.app/"
+                    target="_blank"
+                    >GDSC</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://mesamescwce.wordpress.com/"
+                    target="_blank"
+                    >MESA-MESC</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://wcepace.org.in/"
+                    target="_blank"
+                    >PACE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://in.linkedin.com/company/rotaract-club-of-wce-sangli"
+                    target="_blank"
+                    >ROTARACT</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="http://wcesait.org/"
+                    target="_blank"
+                    >SAIT</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://softa.org.in/"
+                    target="_blank"
+                    >SOFTA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.wcewlug.org/"
+                    target="_blank"
+                    >WLUG</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle nav-link text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Apti-Links
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://iim-cat-questions-answers.2iim.com/"
+                    target="_blank"
+                    >CAT questions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.geeksforgeeks.org/aptitude-questions-and-answers/"
+                    target="_blank"
+                    >GFG Apti questions</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-warning" type="submit">
+              Search
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            College-Links
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="http://115.247.20.236/moodle/" target="_blank">MOODLE</a>
-                            </li>
-                            <li><a class="dropdown-item" href="https://student.wcoeapps.in/landing"
-                                    target="_blank">WCEOAPPS</a></li>
-                            <li><a class="dropdown-item" href="https://wcoe.unionline.in/login" target="_blank">WCEO
-                                    ONLINE</a></li>
-                            <li><a class="dropdown-item" href="http://www.walchandsangli.ac.in/"
-                                    target="_blank">OFFICIAL WEBSITE</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Courses
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item"
-                                    href="https://drive.google.com/drive/u/0/folders/14Q_A4FKLLzjPI2QuHPctKFjaSIx-wzsU"
-                                    target="_blank">WEB Dev - Angela YU</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://drive.google.com/drive/folders/1SLuWEq0uRJrWJ0Y5jl1SFY35RndetYrH"
-                                    tareget="_blank">DSA - Abdul Bari</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://drive.google.com/drive/folders/1gfqQxSP_YgOn6FV-HsBiyqywqtSDugkC"
-                                    target="_blank">JAVA</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://drive.google.com/drive/folders/1SkCOcAS0Kqvuz-MJkkjbFr1GSue6Ms6m"
-                                    target="_blank">Placement material</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            CP Platforms
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.codechef.com/" target="_blank">Codechef</a>
-                            </li>
-                            <li><a class="dropdown-item" href="https://codeforces.com/" target="_blank">Codeforces</a>
-                            </li>
-                            <li><a class="dropdown-item" href="https://leetcode.com/" target="_blank">Leetcode</a></li>
-                            <li><a class="dropdown-item" href="https://www.hackerrank.com/"
-                                    target="_blank">Hackerrank</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Learning Websites
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.geeksforgeeks.org/" target="_blank">Geeks for
-                                    Geeks</a></li>
-                            <li><a class="dropdown-item" href="https://www.tutorialspoint.com/index.htm"
-                                    target="_blank">Tutorials Point</a></li>
-                            <li><a class="dropdown-item" href="https://www.javatpoint.com/"
-                                    target="_blank">javaTpoint</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-link text-light" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Clubs
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://wceacses.org/" target="_blank">acses</a></li>
-                            <li><a class="dropdown-item" href="https://wce.acm.org/" target="_blank">ACM students
-                                    chapter</a></li>
-                            <li><a class="dropdown-item" href="https://wceartcircle.github.io/" target="_blank">ART
-                                    CIRCLE</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://in.linkedin.com/in/wce-cesa-3b0611229?trk=public_profile_browsemap"
-                                    target="_blank">CESA</a></li>
-                            <li><a class="dropdown-item" href="https://in.linkedin.com/company/wce-codechef-chapter"
-                                    target="_blank">Codechef students chapter</a></li>
-                            <li><a class="dropdown-item" href="https://in.linkedin.com/in/wceeesa"
-                                    target="_blank">EESA</a></li>
-                            <li><a class="dropdown-item" href="https://elesa.co.in/" target="_blank">ELESA</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://gdscwce.vercel.app/"
-                                    target="_blank">GDSC</a></li>
-                            <li><a class="dropdown-item" href="https://mesamescwce.wordpress.com/"
-                                    target="_blank">MESA-MESC</a></li>
-                            <li><a class="dropdown-item" href="https://wcepace.org.in/" target="_blank">PACE</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://in.linkedin.com/company/rotaract-club-of-wce-sangli"
-                                    target="_blank">ROTARACT</a></li>
-                            <li><a class="dropdown-item" href="http://wcesait.org/" target="_blank">SAIT</a></li>
-                            <li><a class="dropdown-item" href="https://softa.org.in/" target="_blank">SOFTA</a></li>
-                            <li><a class="dropdown-item" href="https://www.wcewlug.org/" target="_blank">WLUG</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-warning" type="submit">Search</button>
-                </form>
-            </div>
+          </form>
         </div>
+      </div>
     </nav>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://source.unsplash.com/1600x600/?monuments,heritage sites" class="d-block w-100"
-                    style="height:500px; width:fit-content;" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://source.unsplash.com/1600x600/?college" class="d-block w-100"
-                    style="height:500px; width:fit-content;" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://source.unsplash.com/1600x600/?motivation,quotes" class="d-block w-100"
-                    style="height:500px; width:fit-content;" alt="...">
-            </div>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://source.unsplash.com/1600x600/?monuments,heritage sites"
+            class="d-block w-100"
+            style="height: 500px; width: fit-content"
+            alt="..."
+          />
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/1600x600/?college"
+            class="d-block w-100"
+            style="height: 500px; width: fit-content"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/1600x600/?motivation,quotes"
+            class="d-block w-100"
+            style="height: 500px; width: fit-content"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
